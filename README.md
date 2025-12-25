@@ -1,6 +1,6 @@
 # PostgreSQL Adapter for Toutago DataMapper
 
-A PostgreSQL database adapter implementation for [toutago-datamapper](https://github.com/toutago/toutago-datamapper), providing full CRUD operations, bulk inserts, RETURNING clause for generated IDs, and custom query execution.
+A PostgreSQL database adapter implementation for [toutago-datamapper](https://github.com/toutaio/toutago-datamapper), providing full CRUD operations, bulk inserts, RETURNING clause for generated IDs, and custom query execution.
 
 ## Features
 
@@ -17,7 +17,7 @@ A PostgreSQL database adapter implementation for [toutago-datamapper](https://gi
 ## Installation
 
 ```bash
-go get github.com/toutago/toutago-datamapper-postgres
+go get github.com/toutaio/toutago-datamapper-postgres
 ```
 
 ## Quick Start
@@ -88,10 +88,10 @@ import (
     "context"
     "log"
     
-    "github.com/toutago/toutago-datamapper/engine"
-    "github.com/toutago/toutago-datamapper/config"
-    "github.com/toutago/toutago-datamapper/adapter"
-    postgresql "github.com/toutago/toutago-datamapper-postgres"
+    "github.com/toutaio/toutago-datamapper/engine"
+    "github.com/toutaio/toutago-datamapper/config"
+    "github.com/toutaio/toutago-datamapper/adapter"
+    postgresql "github.com/toutaio/toutago-datamapper-postgres"
 )
 
 func main() {
@@ -160,8 +160,8 @@ go test -v
 
 ## Related Projects
 
-- [toutago-datamapper](https://github.com/toutago/toutago-datamapper) - Core library
-- [toutago-datamapper-mysql](https://github.com/toutago/toutago-datamapper-mysql) - MySQL adapter
+- [toutago-datamapper](https://github.com/toutaio/toutago-datamapper) - Core library
+- [toutago-datamapper-mysql](https://github.com/toutaio/toutago-datamapper-mysql) - MySQL adapter
 
 ## License
 

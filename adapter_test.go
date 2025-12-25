@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/toutago/toutago-datamapper/adapter"
+	"github.com/toutaio/toutago-datamapper/adapter"
 )
 
 func TestPostgreSQLAdapter_Name(t *testing.T) {

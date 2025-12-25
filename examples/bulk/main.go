@@ -6,10 +6,10 @@ import (
 	"log"
 	"time"
 
-	postgresql "github.com/toutago/toutago-datamapper-postgres"
-	"github.com/toutago/toutago-datamapper/adapter"
-	"github.com/toutago/toutago-datamapper/config"
-	"github.com/toutago/toutago-datamapper/engine"
+	postgresql "github.com/toutaio/toutago-datamapper-postgres"
+	"github.com/toutaio/toutago-datamapper/adapter"
+	"github.com/toutaio/toutago-datamapper/config"
+	"github.com/toutaio/toutago-datamapper/engine"
 )
 
 func main() {

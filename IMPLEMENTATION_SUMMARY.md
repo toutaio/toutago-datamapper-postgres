@@ -96,10 +96,10 @@ toutago-datamapper-postgres/
 
 ```go
 import (
-    "github.com/toutago/toutago-datamapper/engine"
-    "github.com/toutago/toutago-datamapper/config"
-    "github.com/toutago/toutago-datamapper/adapter"
-    postgresql "github.com/toutago/toutago-datamapper-postgres"
+    "github.com/toutaio/toutago-datamapper/engine"
+    "github.com/toutaio/toutago-datamapper/config"
+    "github.com/toutaio/toutago-datamapper/adapter"
+    postgresql "github.com/toutaio/toutago-datamapper-postgres"
 )
 
 mapper, _ := engine.NewMapper("config.yaml")
@@ -149,7 +149,7 @@ github.com/lib/pq (driver)
 ```go
 require (
     github.com/lib/pq v1.10.9                      // PostgreSQL driver
-    github.com/toutago/toutago-datamapper v0.1.0   // Core mapper (local replace)
+    github.com/toutaio/toutago-datamapper v0.1.0   // Core mapper (local replace)
 )
 ```
 
