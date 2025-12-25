@@ -1,4 +1,4 @@
-module github.com/toutago/toutago-datamapper-postgresql
+module github.com/toutago/toutago-datamapper-postgres
 
 go 1.21.5
 

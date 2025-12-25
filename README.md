@@ -17,7 +17,7 @@ A PostgreSQL database adapter implementation for [toutago-datamapper](https://gi
 ## Installation
 
 ```bash
-go get github.com/toutago/toutago-datamapper-postgresql
+go get github.com/toutago/toutago-datamapper-postgres
 ```
 
 ## Quick Start
@@ -91,7 +91,7 @@ import (
     "github.com/toutago/toutago-datamapper/engine"
     "github.com/toutago/toutago-datamapper/config"
     "github.com/toutago/toutago-datamapper/adapter"
-    postgresql "github.com/toutago/toutago-datamapper-postgresql"
+    postgresql "github.com/toutago/toutago-datamapper-postgres"
 )
 
 func main() {

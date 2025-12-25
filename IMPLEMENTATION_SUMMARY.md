@@ -7,7 +7,7 @@ Successfully implemented a production-ready PostgreSQL adapter for toutago-datam
 ## Repository Structure
 
 ```
-toutago-datamapper-postgresql/
+toutago-datamapper-postgres/
 ├── adapter.go              # Core adapter implementation (459 lines)
 ├── adapter_test.go         # Comprehensive test suite (301 lines)
 ├── go.mod                  # Module definition
@@ -99,7 +99,7 @@ import (
     "github.com/toutago/toutago-datamapper/engine"
     "github.com/toutago/toutago-datamapper/config"
     "github.com/toutago/toutago-datamapper/adapter"
-    postgresql "github.com/toutago/toutago-datamapper-postgresql"
+    postgresql "github.com/toutago/toutago-datamapper-postgres"
 )
 
 mapper, _ := engine.NewMapper("config.yaml")
@@ -134,7 +134,7 @@ sources:
 ```
 toutago-datamapper (core - defines interfaces)
     ↑ depends on
-toutago-datamapper-postgresql (implementation)
+toutago-datamapper-postgres (implementation)
     ↑ uses
 github.com/lib/pq (driver)
 ```
@@ -195,7 +195,7 @@ Demonstrates:
 
 ```bash
 # Clone and test
-cd /home/nestor/Proyects/toutago-datamapper-postgresql
+cd /home/nestor/Proyects/toutago-datamapper-postgres
 go test -v
 # PASS (11/11 tests)
 
@@ -227,6 +227,6 @@ Phase 6.2 (PostgreSQL Adapter) is **COMPLETE**. The adapter is production-ready 
 - Working examples
 - Clean architecture
 
-**Repository:** `/home/nestor/Proyects/toutago-datamapper-postgresql`  
+**Repository:** `/home/nestor/Proyects/toutago-datamapper-postgres`  
 **Status:** ✅ Production Ready  
 **Git:** Committed and ready for push
