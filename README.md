@@ -1,5 +1,9 @@
 # PostgreSQL Adapter for Toutago DataMapper
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/toutaio/toutago-datamapper-postgres.svg)](https://pkg.go.dev/github.com/toutaio/toutago-datamapper-postgres)
+[![Go Report Card](https://goreportcard.com/badge/github.com/toutaio/toutago-datamapper-postgres)](https://goreportcard.com/report/github.com/toutaio/toutago-datamapper-postgres)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A PostgreSQL database adapter implementation for [toutago-datamapper](https://github.com/toutaio/toutago-datamapper), providing full CRUD operations, bulk inserts, RETURNING clause for generated IDs, and custom query execution.
 
 ## Features
