@@ -1,10 +1,10 @@
-# PostgreSQL Adapter for Toutago DataMapper
+# PostgreSQL Adapter for Toutā DataMapper
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/toutaio/toutago-datamapper-postgres.svg)](https://pkg.go.dev/github.com/toutaio/toutago-datamapper-postgres)
 [![Go Report Card](https://goreportcard.com/badge/github.com/toutaio/toutago-datamapper-postgres)](https://goreportcard.com/report/github.com/toutaio/toutago-datamapper-postgres)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A PostgreSQL database adapter implementation for [toutago-datamapper](https://github.com/toutaio/toutago-datamapper), providing full CRUD operations, bulk inserts, RETURNING clause for generated IDs, and custom query execution.
+> A PostgreSQL database adapter implementation for [toutago-datamapper](https://github.com/toutaio/toutago-datamapper), providing full CRUD operations, bulk inserts, RETURNING clause for generated IDs, and custom query execution. Part of the **Toutā Framework** ecosystem.
 
 ## Features
 
@@ -166,6 +166,10 @@ go test -v
 
 - [toutago-datamapper](https://github.com/toutaio/toutago-datamapper) - Core library
 - [toutago-datamapper-mysql](https://github.com/toutaio/toutago-datamapper-mysql) - MySQL adapter
+
+---
+
+Part of the **Toutā Framework** - A modular Go framework emphasizing interface-first design and zero framework lock-in.
 
 ## License
 
