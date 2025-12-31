@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/toutaio/toutago-datamapper/adapter"
 	_ "github.com/lib/pq"
+	"github.com/toutaio/toutago-datamapper/adapter"
 )
 
 // PostgreSQLAdapter implements the adapter.Adapter interface for PostgreSQL databases.
