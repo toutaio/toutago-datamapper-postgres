@@ -85,7 +85,7 @@ func (a *PostgreSQLAdapter) Connect(ctx context.Context, config map[string]inter
 
 	// Verify connection
 	if err := db.PingContext(ctx); err != nil {
-		db.Close()
+		_ = db.Close()
 		return fmt.Errorf("postgresql: failed to ping database: %w", err)
 	}
 
@@ -118,7 +118,7 @@ func (a *PostgreSQLAdapter) Fetch(ctx context.Context, op *adapter.Operation, pa
 	if err != nil {
 		return nil, fmt.Errorf("postgresql: query failed: %w", err)
 	}
-	defer rows.Close()
+	defer func() { _ = rows.Close() }()
 
 	// Get column names
 	columns, err := rows.Columns()
@@ -353,7 +353,7 @@ func (a *PostgreSQLAdapter) Execute(ctx context.Context, action *adapter.Action,
 	if err != nil {
 		return nil, fmt.Errorf("postgresql: execute failed: %w", err)
 	}
-	defer rows.Close()
+	defer func() { _ = rows.Close() }()
 
 	// Get column names
 	columns, err := rows.Columns()
