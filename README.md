@@ -163,6 +163,13 @@ INSERT INTO users (name, email) VALUES ($1, $2), ($3, $4), ($5, $6)
 go test -v
 ```
 
+## Project Information
+
+- **Status**: Production Ready
+- **Current Release**: See [Releases](https://github.com/toutaio/toutago-datamapper-postgres/releases)
+- **Go Version**: 1.22+
+- **Documentation**: [CHANGELOG.md](CHANGELOG.md)
+
 ## Related Projects
 
 - [toutago-datamapper](https://github.com/toutaio/toutago-datamapper) - Core library
